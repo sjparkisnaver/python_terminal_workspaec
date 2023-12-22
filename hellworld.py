@@ -1,16 +1,16 @@
 from math import *
 from random import *
 
-# from reportlab.pdfgen import canvas
-# from reportlab.pdfbase import pdfmetrics
-# from reportlab.pdfbase.ttfonts import TTFont
-# from reportlab.lib.pagesizes import A4
+ from reportlab.pdfgen import canvas
+ from reportlab.pdfbase import pdfmetrics
+ from reportlab.pdfbase.ttfonts import TTFont
+ from reportlab.lib.pagesizes import A4
 
-# pdfmetrics.registerFont(TTFont("맑은고딕", "malgun.ttf"))
-# pdf = canvas.Canvas("test.pdf", pagesize=A4)
-# pdf.setFont("맑은고딕", 16)
-# pdf.drawString(30, 750, "점검보고서")
-# pdf.save()
+ pdfmetrics.registerFont(TTFont("맑은고딕", "malgun.ttf"))
+ pdf = canvas.Canvas("test.pdf", pagesize=A4)
+ pdf.setFont("맑은고딕", 16)
+ pdf.drawString(30, 750, "점검보고서")
+ pdf.save()
 
 print("hello world")
 print(5)
